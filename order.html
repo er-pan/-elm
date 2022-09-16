@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>饱了吧 确认订单</title>
+    <link rel="stylesheet" href="./framework/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./framework/icon.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/order.css">
+</head>
+<body>
+    <div class="wraper">
+        <!-- header 部分 -->
+        <header class="header">
+            <p>确认订单</p>
+        </header>
+        <!-- 订单信息部分 -->
+        <div class="order-info">
+            <h5>订单配送至：</h5>
+            <div class="address">
+                <p>广东省广州市番禺区礼村中路11号</p>
+                <i class="fa fa-angle-right"></i>
+            </div>
+            <p class="p">李先生 18200006466</p>
+        </div>
+        <h3>万家饺子（软件园E18店）</h3>
+        
+        <!-- 订单列表 -->
+        <ul class="order-list">
+            <li>
+                <div class="left">
+                    <div class="img"><img src="./img/sp01.png" alt=""></div>   
+                    <p>纯肉鲜肉（水饺） x 2</p>
+                </div>
+                <p>&#165;15</p>
+            </li>
+            <li>
+                <div class="left">
+                    <div class="img"><img src="./img/sp02.png" alt=""> </div>  
+                    <p>玉米鲜肉（水饺） x 1</p>
+                </div>
+                <p>&#165;16</p>
+            </li>
+        </ul>
+        <div class="order-free">
+            <p>配送费</p>
+            <p>&#165;3</p>
+        </div>
+        
+        <!-- 合计部分 -->
+        <div class="total">
+            <div class="left">
+                &#165;49
+            </div>
+            <div class="right" onclick="location.href='payment.html'">
+                去支付
+            </div>
+        </div>
+    </div>
+</body>
+</html>

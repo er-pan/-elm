@@ -1,0 +1,106 @@
+/* 总容器 */
+.wraper {
+    width: 100%;
+    height: 100%;
+}
+
+/* header */
+.wraper .header {
+    width: 100%;
+    height: 12vw;
+    background-color: #0097FF;
+    color: #fff;
+    font-size: 4.8vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.business {
+    width: 100%;
+    margin-top: 12vw;
+    margin-bottom: 14vw;
+}
+.business li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2.5vw;
+    border-bottom: 1px solid #DDD;
+    user-select: none;
+    cursor: pointer;
+}
+.business-img {
+    position: relative;
+}
+.business-img .img {
+    width: 20vw;
+    height: 20vw;
+}
+.business-img .img img {
+    width: 100%;
+    height: 100%;
+}
+.business-img .business-img-quantity {
+    position: absolute;
+    right: -1.5vw;
+    top: -1.5vw;
+    width: 5vw;
+    height: 5vw;
+    background-color: red;
+    color: #fff;
+    font-size: 3.6vw;
+    border-radius: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.business-info {
+    margin-left: 3vw;
+}
+.business-info h3 {
+    font-size: 3.8vw;
+    color: #555;
+}
+.business-info p {
+    font-size: 3vw;
+    color: #888;
+    margin-top: 2vw;
+}
+
+
+
+/* 底部菜单 */
+.wraper .footer {
+    width: 100%;
+    height: 12vw;
+    border-top: 1px solid #DDD;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.footer li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
+.footer li i {
+    font-size: 5vw
+}
+
+.footer li p {
+   font-size: 2.8vw 
+}
